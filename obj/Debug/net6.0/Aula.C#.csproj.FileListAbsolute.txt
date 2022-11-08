@@ -1,0 +1,15 @@
+C:\Git\Aula.C#\bin\Debug\net6.0\Aula.C#.exe
+C:\Git\Aula.C#\bin\Debug\net6.0\Aula.C#.deps.json
+C:\Git\Aula.C#\bin\Debug\net6.0\Aula.C#.runtimeconfig.json
+C:\Git\Aula.C#\bin\Debug\net6.0\Aula.C#.dll
+C:\Git\Aula.C#\bin\Debug\net6.0\Aula.C#.pdb
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.csproj.AssemblyReference.cache
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.AssemblyInfoInputs.cache
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.AssemblyInfo.cs
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.csproj.CoreCompileInputs.cache
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.dll
+C:\Git\Aula.C#\obj\Debug\net6.0\refint\Aula.C#.dll
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.pdb
+C:\Git\Aula.C#\obj\Debug\net6.0\Aula.C#.genruntimeconfig.cache
+C:\Git\Aula.C#\obj\Debug\net6.0\ref\Aula.C#.dll
