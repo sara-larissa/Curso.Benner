@@ -1,5 +1,7 @@
 
 
+
+
 // Console.WriteLine("Digite seu nome:");
 // string nome = Console.ReadLine(); //forma de fazer com o que seja escritono console seja impresso no nome, para várias pessoas conseguirem usar; 
 
@@ -100,20 +102,43 @@
 
 //NOT (!)  - Aula 05 part 03.
 
-bool choveu = false; //quando usa o true ele entende que choveu e está tarde então ele não vai pedalar, pois o if pede que não tenha chovido e nem tarde, se estiver false ele vai!
-bool tarde = false;
+// bool choveu = false; //quando usa o true ele entende que choveu e está tarde então ele não vai pedalar, pois o if pede que não tenha chovido e nem tarde, se estiver false ele vai!
+// bool tarde = false;
 
-if (!choveu && !tarde) //! o resultado oposto
+// if (!choveu && !tarde) //! o resultado oposto
+// {
+//     Console.WriteLine("Vou pedalar"); //! para inverter a lógica, pois estava choveu e está tarde, vou pedalar e era não choveu e não está tarde vou pedalar
+// }else{
+//     Console.WriteLine("Não vou pedalar");
+// }
+
+
+
+
+/////FOR
+
+// Console.WriteLine("Digite um número");
+// int numero = int.Parse(Console.ReadLine());
+
+// for (int contador = 0; contador <=10; contador ++)
+// {
+//     Console.WriteLine(numero + " X " + contador + " = " + numero*contador);
+// }
+
+/////WHILE
+
+int numero = 0;
+int soma = 0;
+
+Console.WriteLine("Digite uma sequencia de números e aperte ENTER (0 para SAIR)");
+numero = int.Parse(Console.ReadLine());
+
+while(numero != 0)
+
 {
-    Console.WriteLine("Vou pedalar"); //! para inverter a lógica, pois estava choveu e está tarde, vou pedalar e era não choveu e não está tarde vou pedalar
-}else{
-    Console.WriteLine("Não vou pedalar");
+    soma = soma + numero;
+    numero = int.Parse(Console.ReadLine());
 }
 
-
-
-
-
-
-
+Console.WriteLine("A soma dos números é: " + soma);
 
