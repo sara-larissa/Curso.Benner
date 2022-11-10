@@ -2,6 +2,8 @@
 
 
 
+
+
 // Console.WriteLine("Digite seu nome:");
 // string nome = Console.ReadLine(); //forma de fazer com o que seja escritono console seja impresso no nome, para várias pessoas conseguirem usar; 
 
@@ -127,18 +129,36 @@
 
 /////WHILE
 
+// int numero = 0;
+// int soma = 0;
+
+// Console.WriteLine("Digite uma sequencia de números e aperte ENTER (0 para SAIR)");
+// numero = int.Parse(Console.ReadLine());
+
+// while(numero != 0)
+
+// {   Console.WriteLine("Executando novamente");
+//     soma = soma + numero;
+//     numero = int.Parse(Console.ReadLine());
+// }
+
+// Console.WriteLine("A soma dos números é: " + soma);
+
+//********************************************************//
+
+/// DO WHILE - Sempre executa independente da condição 
+
+
 int numero = 0;
 int soma = 0;
-
 Console.WriteLine("Digite uma sequencia de números e aperte ENTER (0 para SAIR)");
 numero = int.Parse(Console.ReadLine());
 
-while(numero != 0)
-
-{
+do{
+    Console.WriteLine("Executando novamente");
+    numero = int.Parse(Console.ReadLine()); //tem que inverter e colocar essa parte em cima do "numero"
     soma = soma + numero;
-    numero = int.Parse(Console.ReadLine());
-}
+
+}while(numero != 0);
 
 Console.WriteLine("A soma dos números é: " + soma);
-
